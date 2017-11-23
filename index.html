@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="local-weather opacity">
+            <div id="logo">The Local Weather</div>
+            <div class="show-container">
+                <a id="show-data">show info</a>
+            </div>
+            <div class="weather-data hide">
+                <div id="location"></div>
+                <div class="temperature">
+                    <img class="icon">
+                    <span class="degrees"></span>
+                </div>
+                <div id="weather-status"></div>
+            </div>
+            <div class="toggle-degrees-container hide">
+                <a id="toggle-degrees">°C ↔ °F</a>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
